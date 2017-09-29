@@ -6,7 +6,7 @@ exports.run = (client, message, args) => {
 
   if (clanTag) {
     if (clanData[clanTag].updateInterval !== "accessDenied") {
-      message.reply("this clan is recieving updates already");
+      message.reply("tthis clan is recieving updates already");
     } else {
       message.reply("this clan is recieving updates again");
 
