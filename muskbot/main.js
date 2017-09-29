@@ -12,7 +12,6 @@ global.Client = new Line.Client({
   channelSecret: config.line.channelSecret, 
   port: config.line.port 
 }); 
-//test
 // This loop reads the /events/ folder and attaches each event file to the appropriate event.
 fs.readdir("./events/", (err, files) => {
   if (err) return console.error(err);
