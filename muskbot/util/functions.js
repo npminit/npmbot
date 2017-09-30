@@ -5,7 +5,7 @@ const { exec } = require('child_process');
 const COC_API_BASE = 'https://api.clashofclans.com/v1'
 const async = require('async')
 const get = require('simple-get')
-
+//test
 const apiRequest = (task, cb) => {
   get.concat({
     url: task.url,
